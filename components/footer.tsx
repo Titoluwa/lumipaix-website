@@ -11,18 +11,27 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
+            {/* <div className="flex items-center gap-2 mb-4">
               <div className="relative w-8 h-8">
                 <Image
-                  src="/images/logo1.png"
+                  src="/logo/no-bg/logo1.png"
                   alt="LumiPaix Logo"
                   width={32}
                   height={32}
-                  className="w-full h-full invert"
+                  className="w-full h-full"
                 />
               </div>
               <h3 className="font-bold text-lg">LumiPaix</h3>
-            </div>
+            </div> */}
+            {/* Logo */}
+              <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity mb-3" aria-label="LumiPaix Home">
+                <div className="relative w-10 h-10 md:w-12 md:h-12">
+                  <Image src="/logo/no-bg/logo1.png" alt="LumiPaix Logo" fill className="object-contain" sizes="(max-width: 768px) 40px, 48px" />
+                </div>
+                <span className="font-bold text-xl text-foreground">
+                  <span className="text-primary/80">Lumi</span><span className="text-secondary">Paix</span>
+                </span>
+              </Link>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
               Transforming businesses through innovative turnkey solutions and expert guidance.
             </p>

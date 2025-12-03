@@ -1,5 +1,6 @@
-# lumipaix-website
-LumiPaix Global Inc - Turnkey Solutions. 
+# LumiPaix Website
+
+## LumiPaix Global Inc - Turnkey Solutions. 
 
 Professional turnkey solutions for AI, Training, Office Automation, Financial Services, and Procurement. Transform your business with innovative solutions. 
 

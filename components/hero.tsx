@@ -12,19 +12,29 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-cyan-50 via-background to-gray-50 z-0" />
+    <section className="relative sm:min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+      {/* Main background gradient */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary/25 via-background/80 to-gray-50/5" />
 
-      {/* Grid pattern overlay */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#0b8ad40a_1px,transparent_1px),linear-gradient(to_bottom,#0b8ad40a_1px,transparent_1px)] bg-[size:50px_50px] z-0 opacity-50" />
+      {/* Grid pattern with primary color */}
+      <div className="absolute inset-0 z-0 opacity-15" style={{
+          backgroundImage: `
+            linear-gradient(to right, rgba(0, 71, 171, 0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(0, 71, 171, 0.1) 1px, transparent 1px)
+          `,
+          backgroundSize: '50px 50px'
+        }}
+      />
+
+      {/* Dark mode */}
+      <div className="absolute inset-0 z-0 hidden dark:block opacity-10 bg-gradient-to-br from-primary/20 via-transparent to-dark-primary/20" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className={`space-y-6 ${isLoaded ? "animate-fadeInUp" : "opacity-0"}`}>
             <div className="inline-block">
-              <span className="text-sm font-semibold text-primary bg-primary/10 px-4 py-2 rounded-full">
+              <span className="font-semibold text-primary/80 bg-primary/5 px-4 py-2 rounded-full border border-primary/20">
                 Welcome to LumiPaix Global
               </span>
             </div>

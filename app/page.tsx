@@ -1,21 +1,16 @@
-import Navigation from "@/components/navigation"
 import Hero from "@/components/hero"
-import Services from "@/components/services"
+import OurServices from "@/components/our-service"
 import WhyChooseUs from "@/components/why-choose-us"
 import Testimonials from "@/components/testimonials"
 import Contact from "@/components/contact"
-import Footer from "@/components/footer"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
-      <Navigation />
+    <div>
       <Hero />
-      <Services />
       <WhyChooseUs />
+      <OurServices />
       <Testimonials />
-      <Contact />
-      <Footer />
-    </main>
+    </div>
   )
 }

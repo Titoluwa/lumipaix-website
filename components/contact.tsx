@@ -37,10 +37,26 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-muted/30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="relative py-20 bg-muted/30">
+      {/* Background gradient */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary/25 via-background/80 to-gray-50/5" />
+
+      {/* Grid pattern with primary color */}
+      <div className="absolute inset-0 z-0 opacity-15" style={{
+          backgroundImage: `
+            linear-gradient(to right, rgba(0, 71, 171, 0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(0, 71, 171, 0.1) 1px, transparent 1px)
+          `,
+          backgroundSize: '50px 50px'
+        }}
+      />
+
+      {/* Optional: Dark mode support */}
+      <div className="absolute inset-0 z-0 hidden dark:block opacity-10 bg-gradient-to-br from-primary/20 via-transparent to-dark-primary/20" />
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 mt-20">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Get In <span className="text-primary">Touch</span>
           </h2>
