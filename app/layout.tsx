@@ -19,6 +19,16 @@ export const metadata: Metadata = {
     description: "Professional turnkey solutions for your business transformation",
     type: "website",
   },
+  icons: {
+    icon: [
+      {
+        url: "/logo/logo1.ico",
+        // type: "image/svg+xml",
+      },
+    ],
+    shortcut: "/logo/logo1.ico",
+    apple: "/logo/logo1.ico",
+  },
 }
 
 export default function RootLayout({
