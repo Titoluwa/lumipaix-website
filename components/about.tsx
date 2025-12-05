@@ -55,7 +55,7 @@ export default function About() {
                 <div className="text-center mb-16">
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
                         <Sparkles className="w-4 h-4 text-primary" />
-                        <span className="text-sm font-semibold text-primary">About LumiPaix Global</span>
+                        <span className="text-sm font-semibold text-primary">About LumiPaix Global Inc.</span>
                     </div>
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance mb-6">
                         Redefining <span className="text-primary">Business Excellence</span> Through Innovation
@@ -109,7 +109,7 @@ export default function About() {
                                 Our Journey of <span className="text-primary">Transformation</span>
                             </h3>
                             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                                Founded in 2015, LumiPaix Global began as a specialized IT consultancy with a bold vision: to simplify complex technology and translate it into tangible business outcomes. What started with a passionate team of three has evolved into a global collective of over 200 experts.
+                                Founded in 2015, LumiPaix Global Inc. began as a specialized IT consultancy with a bold vision: to simplify complex technology and translate it into tangible business outcomes. What started with a passionate team of three has evolved into a global collective of over 200 experts.
                             </p>
                             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                                 Our evolution mirrors the digital transformation journey we guide our clients through—constantly adapting, innovating, and expanding our expertise to meet the ever-changing demands of the modern business landscape.

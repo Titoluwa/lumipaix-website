@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Mail, Phone } from "lucide-react"
+import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -43,7 +44,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="#services"
+                  href="/services"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   AI Solutions
@@ -51,7 +52,31 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#services"
+                  href="/services"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  Cloud Computing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  Loyalty Program
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  Web and App Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Training Services
@@ -59,7 +84,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#services"
+                  href="/services"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Office Automation
@@ -67,7 +92,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#services"
+                  href="/services"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Financial Services
@@ -75,7 +100,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#services"
+                  href="/services"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Procurement Services
@@ -90,7 +115,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="#why-us"
+                  href="/about"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   About Us
@@ -98,7 +123,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#contact"
+                  href="/contact"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Contact
@@ -121,7 +146,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <div className="space-y-3 text-sm">
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
                 <a
                   href="tel:+15551234567"
@@ -129,7 +154,7 @@ export default function Footer() {
                 >
                   +1 (555) 123-4567
                 </a>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <a
@@ -154,19 +179,25 @@ export default function Footer() {
                 href="#"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
               >
-                LinkedIn
+                <FaLinkedin />
               </a>
               <a
                 href="#"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
               >
-                Twitter
+                <FaXTwitter />
               </a>
               <a
                 href="#"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
               >
-                Facebook
+                <FaFacebook/>
+              </a>
+              <a
+                href="#"
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+              >
+                <FaInstagram/>
               </a>
             </div>
           </div>

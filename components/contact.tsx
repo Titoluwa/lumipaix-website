@@ -69,7 +69,7 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-6">
             {/* Phone */}
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                 <Phone className="w-6 h-6 text-primary" />
               </div>
@@ -77,7 +77,7 @@ export default function Contact() {
                 <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                 <p className="text-muted-foreground">+1 (555) 123-4567</p>
               </div>
-            </div>
+            </div> */}
 
             {/* Email */}
             <div className="flex gap-4">
@@ -91,7 +91,7 @@ export default function Contact() {
             </div>
 
             {/* Address */}
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
@@ -103,7 +103,7 @@ export default function Contact() {
                   New York, NY 10001
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Form */}

@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Zap, BookOpen, Cpu, DollarSign, TrendingUp, CheckCircle} from "lucide-react"
+import { Zap, BookOpen, Cpu, DollarSign, TrendingUp, CheckCircle, Cloud, Gift, Globe } from "lucide-react"
 import { useState } from "react"
 
 const services = [
@@ -14,6 +14,40 @@ const services = [
     icon: Zap,
     features: ["Machine Learning", "Predictive Analytics", "Automation"],
     color: "from-primary to-cyan-500",
+  },
+  {
+    id: "cloud",
+    title: "Cloud Computing",
+    description:
+      "Scalable cloud infrastructure and solutions that enhance flexibility, reduce costs, and enable your business to operate anywhere, anytime.",
+    image: "/images/cloud-computing-2.jpg",
+    icon: Cloud,
+    features: ["Migration Services", "Infrastructure Management", "Security"],
+    color: "from-primary to-cyan-500",
+    // color: "from-indigo-500 to-blue-500",
+    
+  },
+  {
+    id: "loyalty",
+    title: "Loyalty Program",
+    description:
+      "Build lasting customer relationships with customized loyalty programs that increase retention, boost engagement, and maximize customer lifetime value.",
+    image: "/images/loyalty-2.jpg",
+    icon: Gift,
+    features: ["Program Design", "Analytics & Insights", "Customer Engagement"],
+    // color: "from-pink-500 to-red-500",
+    color: "from-primary to-cyan-500",
+  },
+  {
+    id: "web-app",
+    title: "Web and App Development",
+    description:
+      "Custom web and mobile applications built with cutting-edge technology to deliver seamless user experiences and drive digital transformation.",
+    image: "/images/web-app-development.jpg",
+    icon: Globe,
+    features: ["Web Development", "Mobile Apps", "UI/UX Design"],
+    // color: "from-primary to-cyan-500",
+    color: "from-cyan-500 to-primary",
   },
   {
     id: "training",
