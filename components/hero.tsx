@@ -15,7 +15,7 @@ export default function Hero() {
 
   return (
     // sm:min-h-screen
-    <section className="relative flex items-center justify-center  overflow-hidden py-32">
+    <section className="relative flex items-center justify-center  overflow-hidden py-10 lg:py-28">
       {/* Main background gradient */}
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary/25 via-background/80 to-gray-50/5" />
 
@@ -36,7 +36,7 @@ export default function Hero() {
           {/* Left Content */}
           <div className={`space-y-6 ${isLoaded ? "animate-fadeInUp" : "opacity-0"}`}>
             <div>
-              <span className="text-5xl font-bold text-balance leading-tight text-primary">
+              <span className="text-6xl lg:text-5xl font-bold text-balance leading-tight text-primary">
                 {/* Welcome to LumiPaix Global Inc. */}
                 <TextType text={[`Welcome to LumiPaix Global Inc.`, "Use LumiPaix Global Inc. Today!", "Empower Your Business with LumiPaix Global Inc."]}
                   typingSpeed={115} pauseDuration={3000} showCursor={true} cursorCharacter="|"
