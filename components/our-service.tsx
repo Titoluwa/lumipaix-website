@@ -50,16 +50,6 @@ const services = [
     color: "from-cyan-500 to-primary",
   },
   {
-    id: "training",
-    title: "Training Services",
-    description:
-      "Empower your team with professional development and specialized training programs designed to build expertise and drive organizational growth.",
-    image: "/images/training-4.jpg",
-    icon: BookOpen,
-    features: ["Custom Programs", "Expert Instructors", "Certification"],
-    color: "from-primary to-cyan-500",
-  },
-  {
     id: "automation",
     title: "Office Automation",
     description:
@@ -67,6 +57,16 @@ const services = [
     image: "/images/office-automation.jpg",
     icon: Cpu,
     features: ["Workflow Optimization", "Document Management", "System Integration"],
+    color: "from-primary to-cyan-500",
+  },
+  {
+    id: "training",
+    title: "Training Services",
+    description:
+      "Empower your team with professional development and specialized training programs designed to build expertise and drive organizational growth.",
+    image: "/images/training-4.jpg",
+    icon: BookOpen,
+    features: ["Custom Programs", "Expert Instructors", "Certification"],
     color: "from-primary to-cyan-500",
   },
   {

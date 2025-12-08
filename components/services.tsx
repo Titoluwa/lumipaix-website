@@ -73,21 +73,6 @@ export const SERVICES = [
     // bgColor: "bg-primary/20 dark:bg-primay/70"
   },
   {
-    id: "training",
-    title: "Professional Training",
-    description:
-      "Empower your team with professional development and specialized training programs designed to build expertise and drive organizational growth.",
-    longDescription:
-      "We offer comprehensive training programs that bridge the skills gap in your organization. Our curriculum includes hands-on workshops, certification courses, and ongoing mentorship. Whether you need technical upskilling, leadership development, or industry-specific training, we create programs that deliver measurable results and ROI.",
-    image: "/images/training-4.jpg",
-    icon: BookOpen,
-    features: ["Custom Training Programs", "Expert-Led Workshops", "Certification Courses", "Ongoing Mentorship", "Skills Assessment", "ROI Tracking"],
-    benefits: ["Higher employee retention", "Increased productivity", "Skills standardization", "Compliance readiness"],
-    altColor: "from-green-500 to-teal-500",
-    color: "from-secondary/40 to-cyan-500/30",
-    bgColor: "bg-primary/20 dark:bg-primay/70"
-  },
-  {
     id: "automation",
     title: "Office Automation",
     description:
@@ -100,6 +85,21 @@ export const SERVICES = [
     benefits: ["70% time savings on admin tasks", "Error reduction", "Better resource allocation", "Scalable processes"],
     altColor: "from-purple-500 to-pink-500",
     color: "from-primary/40 to-cyan-500/30",
+    bgColor: "bg-primary/20 dark:bg-primay/70"
+  },
+  {
+    id: "training",
+    title: "Professional Training",
+    description:
+      "Empower your team with professional development and specialized training programs designed to build expertise and drive organizational growth.",
+    longDescription:
+      "We offer comprehensive training programs that bridge the skills gap in your organization. Our curriculum includes hands-on workshops, certification courses, and ongoing mentorship. Whether you need technical upskilling, leadership development, or industry-specific training, we create programs that deliver measurable results and ROI.",
+    image: "/images/training-4.jpg",
+    icon: BookOpen,
+    features: ["Custom Training Programs", "Expert-Led Workshops", "Certification Courses", "Ongoing Mentorship", "Skills Assessment", "ROI Tracking"],
+    benefits: ["Higher employee retention", "Increased productivity", "Skills standardization", "Compliance readiness"],
+    altColor: "from-green-500 to-teal-500",
+    color: "from-secondary/40 to-cyan-500/30",
     bgColor: "bg-primary/20 dark:bg-primay/70"
   },
   {

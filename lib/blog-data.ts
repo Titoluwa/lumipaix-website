@@ -102,7 +102,7 @@ Track your transformation journey with these KPIs:
 Digital transformation is a journey, not a destination. Start today, measure progress, and continuously adapt.`,
     author: "Michael Chen",
     date: "November 28, 2024",
-    category: "Digital Strategy",
+    category: "Digital Transformation",
     image: "/images/digital-service.jpg",
     readTime: "7 min read",
   },
@@ -206,7 +206,7 @@ Modern training can be delivered through multiple channels:
 Begin with a needs assessment to identify skill gaps, then develop targeted training programs that align with your business objectives.`,
     author: "James Wilson",
     date: "November 22, 2024",
-    category: "Training Services",
+    category: "Training",
     image: "/images/training-3.jpg",
     readTime: "5 min read",
   },
@@ -246,7 +246,7 @@ Track these benefits:
 Office automation is a strategic investment that delivers rapid returns.`,
     author: "Rachel Martinez",
     date: "November 19, 2024",
-    category: "Office Automation",
+    category: "Automation",
     image: "/images/office-automation-2.jpg",
     readTime: "4 min read",
   },
@@ -286,7 +286,7 @@ Partner with experienced tax professionals to:
 Proactive tax planning can save your business thousands annually.`,
     author: "David Anderson",
     date: "November 16, 2024",
-    category: "Financial Services",
+    category: "Financial",
     image: "/images/fs-taxes.jpg",
     readTime: "5 min read",
   },
@@ -334,7 +334,7 @@ Key metrics:
 Strategic procurement drives competitive advantage.`,
     author: "Lisa Thompson",
     date: "November 13, 2024",
-    category: "Procurement Services",
+    category: "Procurement",
     image: "/images/procurement.jpg",
     readTime: "6 min read",
   },
@@ -362,4 +362,8 @@ export function getPaginatedPosts(page: number, postsPerPage = 6) {
 export function getBlogPostBySlug(slug: string) {
 
   return blogPosts.find(post => post.slug === slug) || null
+}
+
+export function getAllPosts(){
+  return blogPosts
 }

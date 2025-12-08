@@ -14,7 +14,8 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative sm:min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+    // sm:min-h-screen
+    <section className="relative flex items-center justify-center  overflow-hidden py-32">
       {/* Main background gradient */}
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary/25 via-background/80 to-gray-50/5" />
 
@@ -37,8 +38,8 @@ export default function Hero() {
             <div>
               <span className="text-5xl font-bold text-balance leading-tight text-primary">
                 {/* Welcome to LumiPaix Global Inc. */}
-                <TextType text={[`Welcome to LumiPaix Global Inc.`, "Use LumiPaix Global Inc. Today!", "Welcome to LumiPaix Global Inc."]}
-                  typingSpeed={75} pauseDuration={1500} showCursor={true} cursorCharacter="|"
+                <TextType text={[`Welcome to LumiPaix Global Inc.`, "Use LumiPaix Global Inc. Today!", "Empower Your Business with LumiPaix Global Inc."]}
+                  typingSpeed={115} pauseDuration={3000} showCursor={true} cursorCharacter="|"
                 />
               </span>
             </div>
