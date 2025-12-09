@@ -11,10 +11,12 @@ const CATEGORIES = [
   "All", 
   "AI Solutions", 
   "Cloud Computing", 
-  "Digital Transformation", 
+  "Digital Transformation",
+  "Cybersecurity",
   "Training", 
   "Automation", 
-  "Financial"
+  "Financial",
+  "Procurement"
 ] as const
 
 export default function Blogs() {

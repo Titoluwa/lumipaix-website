@@ -21,7 +21,7 @@ const testimonials = [
   {
     id: 2,
     name: "Michael Chen",
-    role: "Operations Director",
+    role: "Operations Director (Worldwide)",
     company: "Global Enterprises",
     content: "The professional training program elevated our team's capabilities dramatically. Within three months, we saw a 60% improvement in project delivery speed.",
     rating: 5,
@@ -238,8 +238,8 @@ export default function Testimonials() {
                   />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-foreground truncate">{testimonial.name}</p>
-                  <p className="text-xs text-muted-foreground truncate">{testimonial.role}</p>
+                  <p className="text-sm font-medium text-foreground">{testimonial.name}</p>
+                  <p className="text-xs text-muted-foreground">{testimonial.role}</p>
                 </div>
               </div>
               <div className={`w-2/3 h-1 rounded-full bg-gradient-to-r ${testimonial.color}`} />

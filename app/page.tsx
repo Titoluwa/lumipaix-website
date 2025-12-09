@@ -2,7 +2,7 @@ import Hero from "@/components/hero"
 import OurServices from "@/components/our-service"
 import WhyChooseUs from "@/components/why-choose-us"
 import Testimonials from "@/components/testimonials"
-import Contact from "@/components/contact"
+import BlogNews from "@/components/blog-news"
 import Blog from "@/components/blog"
 
 export default function Home() {
@@ -11,7 +11,8 @@ export default function Home() {
       <Hero />
       <WhyChooseUs />
       <OurServices />
-      <Blog/>
+      <BlogNews/>
+      {/* <Blog/> */}
       <Testimonials />
     </div>
   )
