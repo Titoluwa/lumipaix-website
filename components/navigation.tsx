@@ -34,7 +34,7 @@ export default function Navigation() {
             <div className="relative w-10 h-10 md:w-12 md:h-12">
               <Image src="/logo/no-bg/logo1.png" alt="LumiPaix Logo" fill className="object-contain" sizes="(max-width: 768px) 40px, 48px" />
             </div>
-            <span className="font-bold text-xl text-foreground hidden sm:inline-block">
+            <span className="font-bold text-xl text-foreground">
               <span className="text-primary">Lumi</span>Paix
             </span>
           </Link>
