@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Mail } from "lucide-react"
 import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6"
+import { SERVICES } from "@/lib/constants"
 
 // Constants for maintainability
 const CURRENT_YEAR = new Date().getFullYear()
@@ -72,19 +73,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <Link 
-              href="/" 
-              className="flex items-center gap-3 hover:opacity-80 transition-opacity mb-3" 
-              aria-label="LumiPaix Home"
+            <Link  href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity mb-3" aria-label="LumiPaix Home"
               prefetch
             >
               <div className="relative w-10 h-10 md:w-12 md:h-12">
-                <Image 
-                  src="/logo/no-bg/logo1.png" 
-                  alt="LumiPaix Logo" 
-                  fill 
-                  className="object-contain" 
-                  sizes="(max-width: 768px) 40px, 48px"
+                <Image src="/logo/no-bg/logo1.png" alt="LumiPaix Logo" fill className="object-contain" sizes="(max-width: 768px) 40px, 48px"
                   priority={false}
                 />
               </div>
@@ -102,7 +95,7 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
-              {SERVICE_LINKS.map((service) => (
+              {SERVICES.map((service) => (
                 <li key={service}>
                   <NavLink href="/services">
                     {service}
@@ -155,12 +148,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-6">
               {SOCIAL_LINKS.map((social) => (
-                <SocialIcon
-                  key={social.label}
-                  href={social.href}
-                  icon={social.icon}
-                  label={social.label}
-                />
+                <SocialIcon key={social.label} href={social.href} icon={social.icon} label={social.label}/>
               ))}
             </div>
           </div>

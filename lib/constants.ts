@@ -121,6 +121,16 @@
 //     bgColor: "bg-primary/20 dark:bg-primay/70"
 //   },
 // ]
+export const SERVICES = [
+    "AI Solutions",
+    "Cloud Computing",
+    "Loyalty Program",
+    "Web and App Development",
+    "Office Automation",
+    "Training Services",
+    "Financial Services",
+    "Procurement Services",
+]
 
 export const BLOG_POSTS = [
     {
