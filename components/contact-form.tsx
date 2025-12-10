@@ -18,7 +18,7 @@ interface ContactFormData {
 }
 
 export default function ContactForm() {
-    const WEB3FORMS_ACCESS_KEY = "46398f6d-060b-4885-8b69-2cfe2b9a5d8c";
+    const WEB3FORMS_ACCESS_KEY = process.env.WEB3FORMS_ACCESS_KEY || " ";
     
     const [formData, setFormData] = useState<ContactFormData>({
         name: '',
