@@ -51,8 +51,13 @@ export default function Hero() {
             </div>
 
             <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-              Transform your organization with our comprehensive suite of AI solutions, professional training, office
-              automation, financial services, and procurement expertise. We deliver innovation with integrity.
+              {/* Transform your organization with our comprehensive suite of AI solutions, professional training, office
+              automation, financial services, and procurement expertise. We deliver innovation with integrity. */}
+              Leverage our end-to-end automated solutions to bypass traditional development cycles and achieve immediate operational readiness. 
+              Our pre-configured suite of tools empowers your business to stay competitive through rapid deployment and data-driven efficiency.
+              {/* Leverage our end-to-end automated solutions to bypass traditional development cycles and achieve immediate 
+              operational readiness. By providing a comprehensive, pre-configured suite of tools, we empower your 
+              business to maintain a competitive edge through rapid implementation and data-driven efficiency. */}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
