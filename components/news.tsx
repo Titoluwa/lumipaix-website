@@ -10,11 +10,11 @@ const POSTS_PER_PAGE = 6
 const DYNAMIC_CATEGORIES: BlogCategory[] = [
   { id: "all", name: "All News", query: "technology business innovation AI cloud" },
   { id: "ai", name: "AI Solutions", query: "artificial intelligence AI machine learning" },
-  { id: "cloud", name: "Cloud Computing", query: "cloud computing AWS Azure Google Cloud" },
+  // { id: "cloud", name: "Cloud Computing", query: "cloud computing AWS Azure Google Cloud" },
 //   { id: "loyalty", name: "Loyalty Program", query: "customer loyalty programs CRM rewards" },
   { id: "dev", name: "Web & App Development", query: "web development mobile apps software development" },
-//   { id: "automation", name: "Office Automation", query: "office automation productivity tools workflow" },
-//   { id: "training", name: "Training Services", query: "corporate training online courses education" },
+  { id: "automation", name: "Office Automation", query: "office automation productivity tools workflow" },
+  { id: "training", name: "Training Services", query: "corporate training online courses education" },
 //   { id: "financial", name: "Financial Services", query: "fintech banking finance technology" },
 //   { id: "procurement", name: "Procurement Services", query: "procurement supply chain B2B sourcing" }
 ] as const
@@ -176,7 +176,7 @@ export default function News() {
           </h1>
           
           <p className="text-xl text-white max-w-3xl mx-auto mb-8 w-3/4">
-            Explore cutting-edge perspectives on AI, digital transformation, cloud innovation, and strategic growth.
+            Explore cutting-edge perspectives on AI, digital transformation, innovation, and strategic growth.
           </p>
 
           {/* API Status Indicator */}

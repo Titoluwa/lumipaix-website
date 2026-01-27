@@ -20,23 +20,23 @@ export const SERVICES = [
     color: "from-primary/40 to-cyan-500/30",
     bgColor: "bg-primary/20 dark:bg-primay/70"
   },
-  {
-    id: "cloud",
-    title: "Cloud Computing",
-    description:
-      "Scalable cloud infrastructure and solutions that enhance flexibility, reduce costs, and enable your business to operate anywhere, anytime.",
-    longDescription:
-      "Transform your business with our comprehensive cloud solutions. We provide end-to-end cloud services including seamless migration, secure infrastructure management, and scalable architecture design. Whether you need hybrid, public, or private cloud solutions, we ensure optimal performance, security, and cost-efficiency for your digital transformation journey.",
-    image: "/images/cloud-computing-2.jpg",
-    icon: Cloud,
-    features: ["Cloud Migration Services", "Infrastructure Management", "Security & Compliance", "Scalable Architecture", "Disaster Recovery", "Cost Optimization"],
-    benefits: ["50% reduction in IT costs", "99.9% uptime guarantee", "Enhanced security posture", "Business continuity"],
-    altColor: "from-indigo-500 to-blue-500",
-    color: "from-secondary/40 to-cyan-500/30",
-    bgColor: "bg-primary/20 dark:bg-primay/70"
-    // color: "from-primary to-cyan-500",
-    // bgColor: "bg-primary/20 dark:bg-primay/70"
-  },
+  // {
+  //   id: "cloud",
+  //   title: "Cloud Computing",
+  //   description:
+  //     "Scalable cloud infrastructure and solutions that enhance flexibility, reduce costs, and enable your business to operate anywhere, anytime.",
+  //   longDescription:
+  //     "Transform your business with our comprehensive cloud solutions. We provide end-to-end cloud services including seamless migration, secure infrastructure management, and scalable architecture design. Whether you need hybrid, public, or private cloud solutions, we ensure optimal performance, security, and cost-efficiency for your digital transformation journey.",
+  //   image: "/images/cloud-computing-2.jpg",
+  //   icon: Cloud,
+  //   features: ["Cloud Migration Services", "Infrastructure Management", "Security & Compliance", "Scalable Architecture", "Disaster Recovery", "Cost Optimization"],
+  //   benefits: ["50% reduction in IT costs", "99.9% uptime guarantee", "Enhanced security posture", "Business continuity"],
+  //   altColor: "from-indigo-500 to-blue-500",
+  //   color: "from-secondary/40 to-cyan-500/30",
+  //   bgColor: "bg-primary/20 dark:bg-primay/70"
+  //   // color: "from-primary to-cyan-500",
+  //   // bgColor: "bg-primary/20 dark:bg-primay/70"
+  // },
   {
     id: "loyalty",
     title: "Loyalty Program",

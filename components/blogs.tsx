@@ -10,7 +10,6 @@ const POSTS_PER_PAGE = 6
 const CATEGORIES = [
   "All", 
   "AI Solutions", 
-  "Cloud Computing", 
   "Digital Transformation",
   "Cybersecurity",
   "Training", 
@@ -74,7 +73,7 @@ export default function Blogs() {
           </h1>
           
           <p className="text-xl text-white max-w-3xl mx-auto mb-8 w-3/4">
-            Explore cutting-edge perspectives on AI, digital transformation, cloud innovation, and strategic growth.
+            Explore cutting-edge perspectives on AI, digital transformation, innovation, and strategic growth.
           </p>
         </div>
 

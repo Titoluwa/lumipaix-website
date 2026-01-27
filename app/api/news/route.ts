@@ -6,7 +6,7 @@ const CACHE_DURATION = 3600 // 1 hour
 
 const DOMAIN_MAP: Record<string, string> = {
   'ai': 'techcrunch.com,venturebeat.com,wired.com,mit.edu,openai.com',
-  'cloud': 'techcrunch.com,zdnet.com,infoq.com,cloud.google.com,aws.amazon.com',
+  // 'cloud': 'techcrunch.com,zdnet.com,infoq.com,cloud.google.com,aws.amazon.com',
   'loyalty': 'forbes.com,entrepreneur.com,businessinsider.com,cmo.com',
   'dev': 'dev.to,smashingmagazine.com,css-tricks.com,github.blog,stackoverflow.blog',
   'automation': 'zapier.com,hubspot.com,salesforce.com,automationanywhere.com',

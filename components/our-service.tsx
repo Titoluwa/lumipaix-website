@@ -15,18 +15,18 @@ const services = [
     features: ["Machine Learning", "Predictive Analytics", "Automation"],
     color: "from-primary to-cyan-500",
   },
-  {
-    id: "cloud",
-    title: "Cloud Computing",
-    description:
-      "Scalable cloud infrastructure and solutions that enhance flexibility, reduce costs, and enable your business to operate anywhere, anytime.",
-    image: "/images/cloud-computing-2.jpg",
-    icon: Cloud,
-    features: ["Migration Services", "Infrastructure Management", "Security"],
-    color: "from-primary to-cyan-500",
-    // color: "from-indigo-500 to-blue-500",
+  // {
+  //   id: "cloud",
+  //   title: "Cloud Computing",
+  //   description:
+  //     "Scalable cloud infrastructure and solutions that enhance flexibility, reduce costs, and enable your business to operate anywhere, anytime.",
+  //   image: "/images/cloud-computing-2.jpg",
+  //   icon: Cloud,
+  //   features: ["Migration Services", "Infrastructure Management", "Security"],
+  //   color: "from-primary to-cyan-500",
+  //   // color: "from-indigo-500 to-blue-500",
     
-  },
+  // },
   {
     id: "loyalty",
     title: "Loyalty Program",

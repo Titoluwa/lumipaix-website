@@ -108,59 +108,6 @@ Digital transformation is a journey, not a destination. Start today, measure pro
   },
   {
     id: 3,
-    slug: "maximizing-roi-cloud-infrastructure",
-    title: "Maximizing ROI with Cloud Infrastructure",
-    excerpt:
-      "Explore proven strategies for leveraging cloud computing to reduce costs and improve your operational efficiency.",
-    content: `Cloud computing has revolutionized how businesses operate, offering flexibility, scalability, and cost efficiency. However, not all organizations are maximizing their cloud investments. Here's how to get the most from your cloud infrastructure.
-
-## The Cloud Advantage
-
-Cloud computing eliminates the need for expensive on-premise infrastructure. Instead of managing physical servers, businesses can focus on their core competencies.
-
-## Cost Reduction Strategies
-
-**1. Right-sizing Resources**: Continuously monitor and adjust resources based on actual usage patterns. Many businesses over-provision, wasting money.
-
-**2. Reserved Instances**: Pre-commit to cloud resources for 1-3 years to receive significant discounts compared to on-demand pricing.
-
-**3. Spot Instances**: For non-critical workloads, use spot instances that offer up to 90% discounts during off-peak hours.
-
-**4. Cost Monitoring Tools**: Implement automated tools that alert you when spending exceeds thresholds.
-
-## Performance Optimization
-
-Beyond cost, optimize for performance:
-- Use Content Delivery Networks (CDNs) to reduce latency
-- Implement auto-scaling to handle traffic spikes
-- Optimize database queries and caching strategies
-
-## Security Considerations
-
-Moving to the cloud requires robust security measures:
-- Encrypt data in transit and at rest
-- Implement proper access controls and identity management
-- Regular security audits and compliance checks
-
-## Measuring Cloud ROI
-
-Track these metrics to quantify your ROI:
-- Total Cost of Ownership (TCO) reduction
-- Infrastructure maintenance costs saved
-- Improved application performance metrics
-- Time to market for new features
-
-## Conclusion
-
-Cloud infrastructure offers tremendous value, but success requires strategic planning and continuous optimization. Partner with experienced cloud consultants to maximize your investment and achieve your business objectives.`,
-    author: "Emma Rodriguez",
-    date: "November 25, 2024",
-    category: "Cloud Computing",
-    image: "/images/cloud.jpg",
-    readTime: "6 min read",
-  },
-  {
-    id: 4,
     slug: "training-services-employee-development",
     title: "Investment in Training: Building a Skilled Workforce",
     excerpt:
@@ -211,7 +158,7 @@ Begin with a needs assessment to identify skill gaps, then develop targeted trai
     readTime: "5 min read",
   },
   {
-    id: 5,
+    id: 4,
     slug: "office-automation-productivity",
     title: "Office Automation: Streamline Your Operations",
     excerpt:
@@ -251,7 +198,7 @@ Office automation is a strategic investment that delivers rapid returns.`,
     readTime: "4 min read",
   },
   {
-    id: 6,
+    id: 5,
     slug: "financial-services-tax-planning",
     title: "Strategic Tax Planning for Business Growth",
     excerpt:
@@ -291,7 +238,7 @@ Proactive tax planning can save your business thousands annually.`,
     readTime: "5 min read",
   },
   {
-    id: 7,
+    id: 6,
     slug: "procurement-cost-optimization",
     title: "Procurement Excellence: Optimize Your Supply Chain",
     excerpt:

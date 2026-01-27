@@ -446,9 +446,9 @@ export default function BlogNews() {
       if (text.includes('ai') || text.includes('artificial intelligence') || text.includes('machine learning')) {
         category = "AI Solutions"
         categoryKey = "ai"
-      } else if (text.includes('cloud') || text.includes('aws') || text.includes('azure')) {
-        category = "Cloud Computing"
-        categoryKey = "cloud"
+      // } else if (text.includes('cloud') || text.includes('aws') || text.includes('azure')) {
+      //   category = "Cloud Computing"
+      //   categoryKey = "cloud"
       } else if (text.includes('loyalty') || text.includes('customer') || text.includes('rewards')) {
         category = "Loyalty Program"
         categoryKey = "loyalty"

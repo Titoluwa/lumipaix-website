@@ -123,7 +123,7 @@
 // ]
 export const SERVICES = [
     "AI Solutions",
-    "Cloud Computing",
+    // "Cloud Computing",
     "Loyalty Program",
     "Web and App Development",
     "Office Automation",
@@ -155,15 +155,15 @@ export const BLOG_POSTS = [
         image: "/images/digital-service.jpg",
         readTime: "7 min read",
     },
-    {
-        id: 3,
-        title: "Maximizing ROI with Cloud Infrastructure",
-        excerpt:
-        "Explore proven strategies for leveraging cloud computing to reduce costs and improve your operational efficiency.",
-        author: "Emma Rodriguez",
-        date: "November 25, 2024",
-        category: "Cloud Computing",
-        image: "/images/cloud.jpg",
-        readTime: "6 min read",
-    },
+    // {
+    //     id: 3,
+    //     title: "Maximizing ROI with Cloud Infrastructure",
+    //     excerpt:
+    //     "Explore proven strategies for leveraging cloud computing to reduce costs and improve your operational efficiency.",
+    //     author: "Emma Rodriguez",
+    //     date: "November 25, 2024",
+    //     category: "Cloud Computing",
+    //     image: "/images/cloud.jpg",
+    //     readTime: "6 min read",
+    // },
 ]

@@ -10,18 +10,6 @@ const COMPANY_NAME = "LumiPaix Global Inc."
 const EMAIL = "info@lumipaix.com"
 const TAGLINE = "Transforming businesses through innovative turnkey solutions and expert guidance."
 
-// Service links data
-const SERVICE_LINKS = [
-  "AI Solutions",
-  "Cloud Computing",
-  "Loyalty Program",
-  "Web and App Development",
-  "Office Automation",
-  "Training Services",
-  "Financial Services",
-  "Procurement Services",
-] as const
-
 // Company links data
 const COMPANY_LINKS = [
   { href: "/about", label: "About Us" },
